@@ -1,5 +1,3 @@
-Here is the rewritten text with corrected grammar and punctuation:
-
 # CAT3-MCQs-MAY
 
 ## Workflow
