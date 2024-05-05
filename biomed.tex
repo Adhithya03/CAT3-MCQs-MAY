@@ -1,0 +1,559 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}  % For math symbols
+\usepackage{enumitem}        % For customizing lists
+\usepackage{xcolor}          % For colored text
+\usepackage{changepage}      % For adjusting margins
+\usepackage{geometry} % Package for adjusting margins
+
+% Command to highlight correct answer (pastel green)
+\newcommand{\correctanswer}[1]{\textbf{\textcolor{green!60!black}{#1}}}
+
+% Define a counter for questions
+\newcounter{questioncounter}
+
+% Define a new environment for MC questions
+\newenvironment{mcquestion}{%
+  \refstepcounter{questioncounter} % Increment question counter
+  \begin{enumerate}[label=\arabic{questioncounter}., wide, labelindent=0pt]
+    \item 
+}{%
+    \end{enumerate}
+  \hrulefill  % Horizontal separation line
+}
+
+\title{BIOMEDICAL - Unit 4 and 5 MCQs}
+\author{GPT-4-Turbo and Adhithya}
+\date{\today}
+
+% Adjust margins (top, bottom, left, right)
+\geometry{top=1cm, bottom=2cm, left=2cm, right=2cm} 
+% Start document
+\begin{document}
+
+
+\maketitle
+
+% Adjust margins for wider text area
+\begin{adjustwidth}{-1cm}{-1cm}
+
+\section{UNIT-4 1 mark MCQ}
+
+
+\begin{mcquestion}
+    \textbf{What is the primary physical principle behind MRI?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Piezoelectric effect
+      \item X-ray attenuation
+      \item \correctanswer{Nuclear magnetic resonance}
+      \item Ultrasonic waves
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which component is crucial for detecting the X-rays in computed tomography (CT)?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Cathode ray tube
+      \item X-ray tube
+      \item Photomultiplier tube
+      \item \correctanswer{Detector array}
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In ultrasonography, what determines the resolution of the image?}
+    \begin{enumerate}[label=\Alph*.]
+      \item \correctanswer{Frequency of the ultrasound waves}
+      \item Amplitude of the ultrasound waves
+      \item Speed of sound in air
+      \item Intensity of the ultrasound waves
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which imaging technique uses thermal sensors to detect radiation emitted by the body?}
+    \begin{enumerate}[label=\Alph*.]
+      \item MRI
+      \item CT
+      \item \correctanswer{Thermography}
+      \item Fluoroscopy
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the main advantage of fluoroscopic imaging over traditional radiography?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Higher resolution images
+      \item Faster image processing
+      \item \correctanswer{Real-time moving images}
+      \item Lower radiation dose
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In endoscopy, what type of imaging technology is commonly used?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Infrared imaging
+      \item \correctanswer{Fiber optic cameras}
+      \item Thermal imaging
+      \item Ultrasonic imaging
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is a key feature of retinal imaging?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It uses low-frequency sound waves.
+      \item \correctanswer{It can directly visualize vascular structures.}
+      \item It requires the injection of contrast media.
+      \item It is primarily used for diagnosing brain disorders.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which type of biotelemetry system would be most appropriate for monitoring heart rate and rhythm?}
+    \begin{enumerate}[label=\Alph*.]
+      \item EEG telemetry
+      \item \correctanswer{ECG telemetry}
+      \item EMG telemetry
+      \item Temperature telemetry
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What distinguishes a digital image analysis in medical applications?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Use of analog signals
+      \item Manual interpretation of images
+      \item \correctanswer{Quantitative measurement of image features}
+      \item Lower resolution images
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In biometric systems, which imaging application is commonly used for identity verification?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Thermography
+      \item \correctanswer{Retinal imaging}
+      \item MRI
+      \item Ultrasound
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{How does computed tomography generate images?}
+    \begin{enumerate}[label=\Alph*.]
+      \item By detecting reflected sound waves
+      \item By recording electrical activity
+      \item \correctanswer{By using rotating X-ray sources and detectors}
+      \item By applying strong magnetic fields
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which imaging modality is considered safest for imaging fetuses?}
+    \begin{enumerate}[label=\Alph*.]
+      \item X-ray
+      \item MRI
+      \item \correctanswer{Ultrasound}
+      \item CT
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the primary use of thermography in medical diagnostics?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To measure bone density
+      \item \correctanswer{To detect areas of heat and inflammation} 
+      \item To visualize brain activity
+      \item To check for arterial blockages 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which imaging technique is most effective for visualizing soft tissues contrast?}
+    \begin{enumerate}[label=\Alph*.]
+      \item X-ray
+      \item \correctanswer{MRI}
+      \item CT 
+      \item Ultrasonography 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is a common use of fluoroscopy in clinical settings?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Long-term imaging 
+      \item Capturing static images 
+      \item \correctanswer{Guiding minimally invasive surgeries} 
+      \item Whole-body scans 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What role does the piezoelectric effect play in medical imaging?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It is used to generate X-rays in CT scanners. 
+      \item It is used in MRI to align hydrogen atoms. 
+      \item \correctanswer{It is used in ultrasonography to generate and detect ultrasound waves.}
+      \item It is used in thermography to detect heat. 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In digital image analysis, what is segmentation used for?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Enhancing the contrast of the image 
+      \item Reducing the noise in the image 
+      \item \correctanswer{Dividing the image into meaningful regions}
+      \item Compressing the image size 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Why is MRI preferred over CT in imaging of brain tissues?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Lower cost 
+      \item Faster imaging time 
+      \item \correctanswer{No ionizing radiation exposure}
+      \item Higher availability 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is an essential aspect of image processing in retinal imaging?}
+    \begin{enumerate}[label=\Alph*.]
+      \item \correctanswer{Motion correction}
+      \item Temperature mapping 
+      \item Sound wave analysis 
+      \item Electrical activity recording 
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In biotelemetry, what is the primary purpose of data encryption?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To compress the data for faster transmission 
+      \item \correctanswer{To prevent unauthorized access to the data}
+      \item To enhance the signal strength 
+      \item To convert analog signals to digital 
+    \end{enumerate}
+\end{mcquestion}
+
+
+\subsection{UNIT-4 2 mark MCQ}
+
+
+\begin{mcquestion}
+    \textbf{Which imaging modality uses a gadolinium-based contrast agent to enhance image quality?}
+    \begin{enumerate}[label=\Alph*.]
+      \item X-ray radiography
+      \item \correctanswer{MRI}
+      \item CT
+      \item Ultrasound
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In computed tomography, what is the significance of the Hounsfield scale?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It measures the intensity of the magnetic field used.
+      \item \correctanswer{It is a quantitative scale for describing radiodensity.}
+      \item It determines the frequency of ultrasound used.
+      \item It calibrates the thermal sensors in thermography.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What differentiates a T1-weighted MRI scan from a T2-weighted scan?}
+    \begin{enumerate}[label=\Alph*.]
+      \item \correctanswer{T1 highlights fat better, while T2 highlights fluid.}
+      \item T1 uses lower magnetic fields than T2.
+      \item T1 is quicker than T2.
+      \item T1 is used for bone imaging, while T2 is used for soft tissues.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In digital image processing, what is the primary purpose of using the Fourier Transform?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To compress the images
+      \item To enhance the edges of the images
+      \item \correctanswer{To convert spatial domain data into frequency domain}
+      \item To reduce the color depth of images
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{How does the principle of echolocation apply to ultrasonography?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It helps in determining the position of the ultrasound device.
+      \item \correctanswer{It is used to measure the depth of the body tissue based on sound reflection.}
+      \item It adjusts the frequency of sound waves.
+      \item It enhances the contrast of the ultrasound images.
+    \end{enumerate}
+\end{mcquestion}
+
+
+
+\section{UNIT-5 1 mark MCQ}
+
+\begin{mcquestion}
+    \textbf{What is the primary function of a pacemaker?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To monitor heart rate
+      \item \correctanswer{To regulate heart rhythm}
+      \item To measure blood pressure
+      \item To decrease heart muscle contraction
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{How does a defibrillator work?}
+    \begin{enumerate}[label=\Alph*.]
+      \item By providing a steady electrical stimulus
+      \item By delivering a therapeutic dose of X-ray radiation
+      \item \correctanswer{By delivering a controlled electric shock to the heart}
+      \item By cooling the heart muscle
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the main use of ventilators in medical settings?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To provide pain relief
+      \item To administer anesthesia
+      \item \correctanswer{To assist or replace spontaneous breathing}
+      \item To monitor respiratory rate
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which device is used to treat chronic pain and muscle spasms via electrical impulses?}
+    \begin{enumerate}[label=\Alph*.]
+      \item EEG machine
+      \item Ultrasound imager
+      \item \correctanswer{Nerve and muscle stimulators}
+      \item Blood pressure monitor
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the purpose of diathermy in therapeutic settings?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To measure electrical activity of the heart
+      \item \correctanswer{To induce deep tissue heating}
+      \item To cool body tissues
+      \item To visualize internal organs
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What does a heart-lung machine do during cardiac surgeries?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It monitors heart and lung function
+      \item \correctanswer{It replaces the function of the heart and lungs}
+      \item It reduces the heart rate
+      \item It increases oxygen intake
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the primary function of audiometers?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To measure visual acuity
+      \item \correctanswer{To assess hearing acuity}
+      \item To record electrical activity of the brain
+      \item To monitor blood oxygen levels
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which device is essential for patients undergoing hemodialysis?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Defibrillator
+      \item Ventilator
+      \item \correctanswer{Dialyzer}
+      \item Pacemaker
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the primary benefit of using lithotripsy in treating kidney stones?}
+    \begin{enumerate}[label=\Alph*.]
+      \item It surgically removes stones.
+      \item It dissolves stones using a chemical agent.
+      \item \correctanswer{It uses shock waves to break stones into smaller pieces.}
+      \item It uses high-frequency sound waves to visualize stones.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Which component is critical in an ICCU patient monitoring system?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Anesthesia delivery unit
+      \item \correctanswer{Bedside monitors displaying vital signs}
+      \item Surgical instruments
+      \item Medication dispensing system
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the primary application of nano robots in medicine?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To perform large-scale surgeries
+      \item To enhance imaging clarity
+      \item \correctanswer{To deliver drugs specifically to diseased cells}
+      \item To monitor patient dietary habits
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What distinguishes minimally invasive surgical techniques from traditional surgery?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Longer recovery times
+      \item Larger incisions
+      \item \correctanswer{Less post-operative pain and scarring}
+      \item Use of general anesthesia only
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{How does a defibrillator's function differ from that of a pacemaker?}
+    \begin{enumerate}[label=\Alph*.]
+      \item A defibrillator regulates blood pressure, while a pacemaker does not.
+      \item \correctanswer{A defibrillator can restart the heart, while a pacemaker cannot.}
+      \item A pacemaker uses ultrasound, while a defibrillator uses electrical shocks.
+      \item A pacemaker measures oxygen saturation, while a defibrillator does not.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In what scenario might nerve and muscle stimulators be particularly useful?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To enhance cognitive function
+      \item \correctanswer{To treat muscle atrophy in immobilized patients}
+      \item To improve cardiac function
+      \item To stabilize body temperature
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the main therapeutic mechanism of diathermy?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Cooling the surface tissue
+      \item Inducing muscle contractions
+      \item \correctanswer{Heating deeper tissues}
+      \item Reducing electrical activity in the brain
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{During which procedure is a heart-lung machine most likely used?}
+    \begin{enumerate}[label=\Alph*.]
+      \item During kidney dialysis
+      \item During non-invasive heart monitoring
+      \item \correctanswer{During open-heart surgery}
+      \item During a standard physical examination
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is a key feature of audiometers in audiology?}
+    \begin{enumerate}[label=\Alph*.]
+      \item They can directly measure ear drum resistance.
+      \item \correctanswer{They provide a quantitative measure of hearing loss.}
+      \item They visualize the inner ear structure.
+      \item They stimulate the auditory nerve directly.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What distinguishes a dialyzer in its function from other renal support devices?}
+    \begin{enumerate}[label=\Alph*.]
+      \item \correctanswer{It filters blood through a semi-permeable membrane.}
+      \item It injects antibiotics directly into the bloodstream.
+      \item It measures the electrical activity of the kidneys.
+      \item It increases blood flow to the kidneys.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is the primary function of lithotripsy in urology?}
+    \begin{enumerate}[label=\Alph*.]
+      \item To diagnose urinary tract infections
+      \item To visualize the urinary tract
+      \item \correctanswer{To break up kidney stones}
+      \item To enhance bladder control
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What is an essential feature of nano robots in targeted drug delivery?}
+    \begin{enumerate}[label=\Alph*.]
+      \item They can store large volumes of drugs.
+      \item \correctanswer{They can navigate to specific cells or tissues.}
+      \item They replace traditional surgical methods.
+      \item They function independently of medical supervision.
+    \end{enumerate}
+\end{mcquestion}
+
+
+\subsection{UNIT-5 2 mark MCQ}
+
+
+\begin{mcquestion}
+    \textbf{What is a synchronous (demand) pacemaker and how does it differ from an asynchronous (fixed-rate) pacemaker?}
+    \begin{enumerate}[label=\Alph*.]
+      \item A synchronous pacemaker adjusts the pacing rate based on respiratory rate, whereas an asynchronous does not.
+      \item \correctanswer{A synchronous pacemaker stimulates the heart only if it detects no natural heartbeats, whereas an asynchronous continuously stimulates the heart.}
+      \item A synchronous pacemaker uses ultrasound, whereas an asynchronous uses electrical impulses.
+      \item A synchronous pacemaker is implantable, whereas an asynchronous is external.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{How does an implantable cardioverter-defibrillator (ICD) differ functionally from a standard defibrillator?}
+    \begin{enumerate}[label=\Alph*.]
+      \item An ICD is used only during surgeries as a life-support measure.
+      \item \correctanswer{An ICD can automatically detect and treat arrhythmias, while a standard defibrillator requires manual operation.}
+      \item An ICD is less powerful and only used for minor corrections.
+      \item An ICD monitors blood pressure, while a standard defibrillator does not.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{In what way does a modern ventilator manage different ventilation modes, such as volume-controlled and pressure-controlled?}
+    \begin{enumerate}[label=\Alph*.]
+      \item By changing the chemical composition of the supplied air
+      \item By adjusting the speed of the fan in the ventilator
+      \item \correctanswer{By altering the pressure or volume of air delivered per breath}
+      \item By varying the oxygen concentration only
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{Explain the principle of operation of a dialyzer in the context of counter-current flow.}
+    \begin{enumerate}[label=\Alph*.]
+      \item Blood and dialysate flow in the same direction to maximize waste removal.
+      \item Blood flows through a semipermeable membrane that selectively prevents large molecules from passing.
+      \item \correctanswer{Blood and dialysate flow in opposite directions to increase the gradient for diffusion.}
+      \item The dialyzer recycles dialysate by filtering it through a secondary system.
+    \end{enumerate}
+\end{mcquestion}
+
+\begin{mcquestion}
+    \textbf{What technological advancements enable nano robots to specifically target cancerous cells without affecting surrounding healthy tissue?}
+    \begin{enumerate}[label=\Alph*.]
+      \item Use of magnetic fields to guide them to specific locations
+      \item \correctanswer{Programming with AI to identify cancer cells based on their genetic markers}
+      \item Coating with materials that are only absorbed by cancerous cells
+      \item Utilizing gamma radiation to selectively destroy target cells
+    \end{enumerate}
+
+\end{mcquestion}
+
+\end{adjustwidth}
+\end{document}
