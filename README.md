@@ -21,8 +21,6 @@ Finally, I compiled the .tex file with a LaTeX compiler, for which there are man
 ## Prompt explained
 
 
-![Prompt](https://github.com/Adhithya03/CAT3-MCQs-MAY/assets/77617084/3acce5a2-92d9-4e46-a2ab-60915e16c29f)
-
 1. First, I provide portions enclosed between 3 backticks, so that the AI model doesn't confuse the portion with the instruction that I will give.
 
 2. Then, I assign it a personality, `University professor`, so that it gets into Professor mode, making the questions technical. This may sound silly, but LLMs like GPT-4-turbo have read an unimaginably large amount of internet text and can imitate any personality. We specifically want this personality for our questions.
